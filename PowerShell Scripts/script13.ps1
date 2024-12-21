@@ -1,6 +1,6 @@
 $resourceGroupName="staging-grp"
 $location="North Europe"
-$storageAccountName="appstore443554554"
+$storageAccountName="appstore4435545548"
 $storageAccountKind="StorageV2"
 $accountSku="Standard_LRS"
 
