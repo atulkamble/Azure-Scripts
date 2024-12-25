@@ -1,1 +1,1 @@
-az storage account create -n "newstore44333" -g "app-grp" --kind "StorageV2" --sku "Standard_LRS"
+az storage account create -n "jayesh8999289" -g "myRG" --kind "StorageV2" --sku "Standard_LRS"

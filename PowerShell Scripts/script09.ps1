@@ -1,3 +1,4 @@
+$resourceGroupName="staging-grp"
 $vmName="appvm"
 $vmSize="Standard_DS2_v2"
 $location="North Europe"
