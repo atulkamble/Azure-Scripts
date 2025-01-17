@@ -6,6 +6,8 @@ Install-Module -Name Az -Scope CurrentUser -Repository PSGallery -Force
 
 Get-Module -Name Az -ListAvailable
 
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+
 Connect-AzAccount
 
 pwsh -Command "Write-Host 'Hello from PowerShell'"
