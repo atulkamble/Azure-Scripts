@@ -4,6 +4,8 @@ Install-Module -Name Az -Repository PSGallery -Force
 
 Install-Module -Name Az -Scope CurrentUser -Repository PSGallery -Force
 
+Get-Module -Name Az -ListAvailable
+
 Connect-AzAccount
 
 pwsh -Command "Write-Host 'Hello from PowerShell'"
